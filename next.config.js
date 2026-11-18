@@ -1,5 +1,7 @@
+// Patched by Shippy on 2026-11-17: fixes build errors reported at .next/standalone. Review before merging.
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone',
   eslint: {
     dirs: ['src'],
   },
